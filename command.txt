@@ -1,0 +1,1 @@
+yolo task=detect mode=train model=yolov8l.pt data="D:\Mahmoud\projects\training AI model\yolo_currency\data.yaml" epochs=100 imgsz=640 plots=True

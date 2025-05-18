@@ -1,0 +1,13 @@
+train: D:\Mahmoud\projects\training AI model\yolo_currency\train\images
+val: D:\Mahmoud\projects\training AI model\yolo_currency\valid\images
+test: D:\Mahmoud\projects\training AI model\yolo_currency\test\images
+
+nc: 7
+names: ['1000_AED', '100_AED', '10_AED', '500_AED', '50_AED', '5_AED', 'objects']
+
+roboflow:
+  workspace: mahmouds
+  project: currency-vzh7u
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/mahmouds/currency-vzh7u/dataset/1
